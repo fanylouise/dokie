@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    <Spa/>
       <h1 className='title'>Doc Tracker</h1>
       <div className="card">
         <h1>Login</h1>
@@ -15,7 +16,6 @@ function App() {
         
       </div>
       <Footer/>
-      <Spa/>
     </>
   )
 }
